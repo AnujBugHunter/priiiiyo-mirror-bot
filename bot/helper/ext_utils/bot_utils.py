@@ -24,7 +24,7 @@ class MirrorStatus:
 
 
 PROGRESS_MAX_SIZE = 100 // 8
-# PROGRESS_INCOMPLETE = ['▏', '▎', '▍', '▌', '▋', '▊', '▉']
+# PROGRESS_INCOMPLETE = ['🟩', '🟩', '🟩', '🟩', '🟩', '🟩', '🟩']
 
 SIZE_UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 
@@ -99,7 +99,7 @@ def get_progress_bar_string(status):
 
 def get_readable_message():
     with download_dict_lock:
-        msg = "✥═══ @𝐏𝐫𝐢𝐢𝐢𝐢𝐲𝐨𝐁𝐎𝐓𝐬 ═══✥"
+        msg = "✥═══ @Mani5GRockers ═══✥"
         for download in list(download_dict.values()):
             msg += f"<b>\n\n🗂 𝗙𝗶𝗹𝗲𝗡𝗮𝗺𝗲 :</b> <code>{download.name()}</code>"
             msg += f"\n<b>🚦 𝐒𝐭𝐚𝐭𝐮𝐬 :</b> <i>{download.status()}</i>"
