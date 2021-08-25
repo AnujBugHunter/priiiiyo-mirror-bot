@@ -318,7 +318,7 @@ try:
     if len(IMAGE_URL) == 0:
         IMAGE_URL = 'https://telegra.ph/file/db03910496f06094f1f7a.jpg'
 except KeyError:
-    IMAGE_URL = 'https://telegra.ph/file/db03910496f06094f1f7a.jpg'
+    IMAGE_URL = 'https://gitlab.awslink.in/api/logoposter.jpg'
 
 IGNORE_PENDING_REQUESTS = False
 try:
